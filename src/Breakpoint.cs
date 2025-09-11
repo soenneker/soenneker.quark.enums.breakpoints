@@ -28,7 +28,7 @@ public partial class Breakpoint
     public static readonly Breakpoint Medium = new("md");
 
     /// <summary>
-    /// Large devices (desktops).
+    /// Large devices (desktops). 
     /// Typically used for screens 992px and up.
     /// </summary>
     public static readonly Breakpoint Large = new("lg");

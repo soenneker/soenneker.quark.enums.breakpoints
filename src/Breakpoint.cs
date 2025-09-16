@@ -16,10 +16,10 @@ public sealed partial class Breakpoint
     public static readonly Breakpoint ExtraLarge = new("xl");  // ≥1200px
     public static readonly Breakpoint ExtraExtraLarge = new("xxl"); // ≥1400px
 
-    public static Breakpoint ExtraSmall => Default;
     public static Breakpoint Phone => Default;
     public static Breakpoint Tablet => Small;
     public static Breakpoint Laptop => Medium;
     public static Breakpoint Desktop => Large;
-    public static Breakpoint Widescreen => ExtraExtraLarge;
+    public static Breakpoint Widescreen => ExtraLarge;
+    public static Breakpoint Ultrawide => ExtraExtraLarge;
 }

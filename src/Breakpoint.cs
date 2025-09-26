@@ -1,6 +1,6 @@
 ﻿using Intellenum;
 
-namespace Soenneker.Quark.Enums.Breakpoints;
+namespace Soenneker.Quark;
 
 /// <summary>
 /// An enumeration for Quark, representing common responsive breakpoints.

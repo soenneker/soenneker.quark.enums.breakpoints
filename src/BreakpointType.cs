@@ -7,7 +7,7 @@ namespace Soenneker.Quark.Enums;
 /// This enum contains standard CSS media query breakpoints for responsive design.
 /// </summary>
 [Intellenum<string>]
-public sealed partial class BreakpointTypeType
+public sealed partial class BreakpointType
 {
     /// <summary>
     /// Default breakpoint. Applies to all viewport sizes (no media query).

@@ -3,44 +3,39 @@ using Intellenum;
 namespace Soenneker.Quark.Enums;
 
 /// <summary>
-/// An enumeration for Quark, representing common responsive breakpoints.
-/// This enum contains standard CSS media query breakpoints for responsive design.
+/// Tailwind CSS responsive breakpoints.
+/// Values map directly to Tailwind utility prefixes.
 /// </summary>
 [Intellenum<string>]
 public sealed partial class BreakpointType
 {
     /// <summary>
-    /// Default breakpoint. Applies to all viewport sizes (no media query).
+    /// Base styles (mobile-first). Applies to all viewport sizes.
     /// </summary>
-    public static readonly BreakpointType Phone = new("");
+    public static readonly BreakpointType Base = new("");
 
     /// <summary>
-    /// Small breakpoint (<c>sm</c>). Applies at <c>≥576px</c>.
-    /// Typically used for portrait phones and small devices.
+    /// Small screens (sm). ≥640px.
     /// </summary>
-    public static readonly BreakpointType Tablet = new("sm");
+    public static readonly BreakpointType Sm = new("sm");
 
     /// <summary>
-    /// Medium breakpoint (<c>md</c>). Applies at <c>≥768px</c>.
-    /// Typically used for tablets and small laptops.
+    /// Medium screens (md). ≥768px.
     /// </summary>
-    public static readonly BreakpointType Laptop = new("md");
+    public static readonly BreakpointType Md = new("md");
 
     /// <summary>
-    /// Large breakpoint (<c>lg</c>). Applies at <c>≥992px</c>.
-    /// Typically used for desktops with standard resolutions.
+    /// Large screens (lg). ≥1024px.
     /// </summary>
-    public static readonly BreakpointType Desktop = new("lg");
+    public static readonly BreakpointType Lg = new("lg");
 
     /// <summary>
-    /// Extra large breakpoint (<c>xl</c>). Applies at <c>≥1200px</c>.
-    /// Typically used for widescreen desktops and larger displays.
+    /// Extra large screens (xl). ≥1280px.
     /// </summary>
-    public static readonly BreakpointType Widescreen = new("xl");
+    public static readonly BreakpointType Xl = new("xl");
 
     /// <summary>
-    /// Extra extra large breakpoint (<c>xxl</c>). Applies at <c>≥1400px</c>.
-    /// Typically used for very large desktops and ultrawide displays.
+    /// Extra extra large screens (2xl). ≥1536px.
     /// </summary>
-    public static readonly BreakpointType Ultrawide = new("xxl");
+    public static readonly BreakpointType Xxl = new("2xl");
 }

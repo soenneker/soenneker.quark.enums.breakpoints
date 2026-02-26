@@ -1,4 +1,4 @@
-using Intellenum;
+using Soenneker.Gen.EnumValues;
 
 namespace Soenneker.Quark.Enums;
 
@@ -6,7 +6,7 @@ namespace Soenneker.Quark.Enums;
 /// Tailwind CSS responsive breakpoints.
 /// Values map directly to Tailwind utility prefixes.
 /// </summary>
-[Intellenum<string>]
+[EnumValue<string>]
 public sealed partial class BreakpointType
 {
     /// <summary>

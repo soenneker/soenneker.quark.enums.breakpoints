@@ -1,6 +1,6 @@
 using Soenneker.Gen.EnumValues;
 
-namespace Soenneker.Quark.Enums;
+namespace Soenneker.Quark;
 
 /// <summary>
 /// Tailwind CSS responsive breakpoints.

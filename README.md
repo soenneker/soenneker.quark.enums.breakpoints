@@ -3,12 +3,23 @@
 [![](https://img.shields.io/nuget/dt/soenneker.quark.enums.breakpoints.svg?style=for-the-badge)](https://www.nuget.org/packages/soenneker.quark.enums.breakpoints/)
 [![](https://img.shields.io/github/actions/workflow/status/soenneker/soenneker.quark.enums.breakpoints/codeql.yml?label=CodeQL&style=for-the-badge)](https://github.com/soenneker/soenneker.quark.enums.breakpoints/actions/workflows/codeql.yml)
 
+# Soenneker.Quark.Enums.Breakpoints
 
-# ![](https://user-images.githubusercontent.com/4441470/224455560-91ed3ee7-f510-4041-a8d2-3fc093025112.png) Soenneker.Quark.Enums.Breakpoints
-### An enumeration for Quark, representing common responsive breakpoints
+Tailwind CSS responsive breakpoints. Values map directly to Tailwind utility prefixes.
 
-## Installation
+## Install
 
-```
+```bash
 dotnet add package Soenneker.Quark.Enums.Breakpoints
 ```
+
+## What you get
+
+- `BreakpointType` — Tailwind CSS responsive breakpoints. Values map directly to Tailwind utility prefixes.
+
+## API at a glance
+
+| API | What it does | Result / important behavior |
+| --- | --- | --- |
+| `BreakpointType.Base` | Base styles (mobile-first). Applies to all viewport sizes. | Base styles (mobile-first). Applies to all viewport sizes. |
+| `BreakpointType.Xxl` | Extra extra large screens (2xl). ≥1536px. | Extra extra large screens (2xl). ≥1536px. |
